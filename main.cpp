@@ -27,10 +27,10 @@ int main() {
         f2.getline(buff, 256, '\n');
         static_cast<string>(buff);
         bool flag= false;
+        y++;
         for (auto it=myFirstMap.begin(); it!=myFirstMap.end();it++){
             if (it->second==buff){
                 flag=true;
-                y++;
                 break;
             }
         }
