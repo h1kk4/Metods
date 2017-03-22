@@ -57,7 +57,7 @@ int main() {
     }
     f2.close();
     f1.close();
-
+    //wow, changes
     delete[] buff;
     return 0;
 }
