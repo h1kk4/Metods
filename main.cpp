@@ -57,7 +57,7 @@ int main() {
     }
     f2.close();
     f1.close();
-
+    //hey ya
     delete[] buff;
     return 0;
 }
